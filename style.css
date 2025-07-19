@@ -74,9 +74,11 @@ body * {
   transform: translateY(-50%);
   animation: slide-out 0.2s;
 }
+
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
+
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
@@ -162,6 +164,7 @@ footer {
     left: 50%;
   }
 }
+
 @keyframes slide-out {
   from {
     left: 50%;
